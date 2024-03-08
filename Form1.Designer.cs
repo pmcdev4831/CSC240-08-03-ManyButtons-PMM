@@ -28,12 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            UxRedButton = new Button();
+            UxWhiteButton = new Button();
+            UxBlueButton = new Button();
+            UxFavoriteButton = new Button();
+            SuspendLayout();
+            // 
+            // UxRedButton
+            // 
+            UxRedButton.Location = new Point(83, 43);
+            UxRedButton.Name = "UxRedButton";
+            UxRedButton.Size = new Size(75, 23);
+            UxRedButton.TabIndex = 0;
+            UxRedButton.Text = "Red";
+            UxRedButton.UseVisualStyleBackColor = true;
+            // 
+            // UxWhiteButton
+            // 
+            UxWhiteButton.Location = new Point(214, 43);
+            UxWhiteButton.Name = "UxWhiteButton";
+            UxWhiteButton.Size = new Size(75, 23);
+            UxWhiteButton.TabIndex = 1;
+            UxWhiteButton.Text = "White";
+            UxWhiteButton.UseVisualStyleBackColor = true;
+            // 
+            // UxBlueButton
+            // 
+            UxBlueButton.Location = new Point(368, 43);
+            UxBlueButton.Name = "UxBlueButton";
+            UxBlueButton.Size = new Size(75, 23);
+            UxBlueButton.TabIndex = 2;
+            UxBlueButton.Text = "Blue";
+            UxBlueButton.UseVisualStyleBackColor = true;
+            // 
+            // UxFavoriteButton
+            // 
+            UxFavoriteButton.Location = new Point(533, 29);
+            UxFavoriteButton.Name = "UxFavoriteButton";
+            UxFavoriteButton.Size = new Size(134, 50);
+            UxFavoriteButton.TabIndex = 3;
+            UxFavoriteButton.Text = "My Favorite Color";
+            UxFavoriteButton.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 153);
+            Controls.Add(UxFavoriteButton);
+            Controls.Add(UxBlueButton);
+            Controls.Add(UxWhiteButton);
+            Controls.Add(UxRedButton);
+            Name = "Form1";
+            Text = "Many Buttons";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button UxRedButton;
+        private Button UxWhiteButton;
+        private Button UxBlueButton;
+        private Button UxFavoriteButton;
     }
 }
