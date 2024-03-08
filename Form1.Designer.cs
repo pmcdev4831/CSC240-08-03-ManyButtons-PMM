@@ -42,6 +42,7 @@
             UxRedButton.TabIndex = 0;
             UxRedButton.Text = "Red";
             UxRedButton.UseVisualStyleBackColor = true;
+            UxRedButton.Click += UxRedButton_Click;
             // 
             // UxWhiteButton
             // 
@@ -51,6 +52,7 @@
             UxWhiteButton.TabIndex = 1;
             UxWhiteButton.Text = "White";
             UxWhiteButton.UseVisualStyleBackColor = true;
+            UxWhiteButton.Click += UxWhiteButton_Click;
             // 
             // UxBlueButton
             // 
@@ -60,6 +62,7 @@
             UxBlueButton.TabIndex = 2;
             UxBlueButton.Text = "Blue";
             UxBlueButton.UseVisualStyleBackColor = true;
+            UxBlueButton.Click += UxBlueButton_Click;
             // 
             // UxFavoriteButton
             // 
@@ -69,6 +72,7 @@
             UxFavoriteButton.TabIndex = 3;
             UxFavoriteButton.Text = "My Favorite Color";
             UxFavoriteButton.UseVisualStyleBackColor = true;
+            UxFavoriteButton.Click += UxBlueButton_Click;
             // 
             // Form1
             // 
